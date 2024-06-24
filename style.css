@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.certificate {
+    width: 600px;
+    margin: 50px auto;
+    border: 1px solid #ddd;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+.certificate-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.certificate-header img {
+    width: 100px;
+}
+
+.certificate h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.name,
+.course,
+.issued-by {
+    font-weight: bold;
+}
+
+.signatures {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.signatures p:first-child {
+    margin-bottom: 5px;
+}
